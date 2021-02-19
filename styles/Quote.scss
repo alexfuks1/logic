@@ -1,0 +1,147 @@
+.quote{
+    padding-top: 70px;
+    .quote-container{
+        .quote-header{
+            h1{
+                text-transform: uppercase;
+                cursor: default;
+                color: transparent;
+                -webkit-text-stroke: 1px #042463;
+                font-weight: 500;
+                font-size: 45px;
+                margin: 0;
+            }
+        }
+    }
+    .quote-bread{
+        padding: 10px 0;
+        a{
+            color: $c1;
+        }
+    }
+    .quote-sub-header{
+        text-align: center;
+        padding: 20px 0;
+        span{
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+    .quote-icon{
+        img{
+            width: 180px;
+        }
+    }
+    .check-box{
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px 0;
+        .check-box-wrapper{
+            padding: 15px 15px;
+            background: #dfdfdf60;
+            margin: 3px 3px;
+            .check-opption{
+                margin: 0 10px;
+            }
+            span{
+                font-weight: 500;
+            }
+        }
+    }
+    .send-calendly{
+        display: flex;
+        justify-content: center;
+        .btn-send-calendly{
+            background: #c9c1926b;
+            width: 300px;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover{
+                background: #c9c192;
+            }
+            span{
+                
+            }
+            img{
+                width: 50px;
+                margin: 0 10px;
+            }
+        }
+    }
+}
+@media (max-width: 991.98px){
+    .quote{
+        padding-top: 0px;
+        padding-bottom: 140px;
+        .quote-container{
+            padding-top: 25px;
+            .quote-header{
+                h1{
+                    text-transform: uppercase;
+                    cursor: default;
+                    color: transparent;
+                    -webkit-text-stroke: 1px #042463;
+                    font-weight: 500;
+                    font-size: 45px;
+                    margin: 0;
+                }
+            }
+        }
+        .quote-bread{
+            padding: 10px 0;
+            a{
+                color: $c1;
+            }
+        }
+        .quote-sub-header{
+            text-align: center;
+            padding: 20px 0;
+            span{
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+        .quote-icon{
+            img{
+                width: 180px;
+            }
+        }
+        .check-box{
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px 0;
+            .check-box-wrapper{
+                padding: 15px 15px;
+                background: #dfdfdf60;
+                margin: 3px 3px;
+                .check-opption{
+                    margin: 0 5px;
+                }
+                span{
+                    font-weight: 500;
+                    font-size: 14px;
+                }
+            }
+        }
+        .send-calendly{
+            display: flex;
+            justify-content: center;
+            .btn-send-calendly{
+                background: #c9c1926b;
+                width: 300px;
+                border-radius: 5px;
+                cursor: pointer;
+                &:hover{
+                    background: #c9c192;
+                }
+                span{
+    
+                }
+                img{
+                    width: 50px;
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+}

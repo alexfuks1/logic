@@ -1,0 +1,140 @@
+.contact{
+    padding-top: 70px;
+    .contact-container{
+        .contact-header{
+            h1{
+                text-transform: uppercase;
+                cursor: default;
+                color: transparent;
+                -webkit-text-stroke: 1px #042463;
+                font-weight: 500;
+                font-size: 45px;
+                margin: 0;
+            }
+        }
+        .contact-bread{
+            padding: 10px 0;
+            a{
+                color: $c1;
+            }
+        }
+        .contact-content{
+            .contact-info{
+                background-image: url('../public/mainlogo.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 100%;
+                opacity: 0.8;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                h1{
+                    color: $c1;
+                    font-weight: bold;
+                }
+                h2{
+                    color: $c1;
+                    font-weight: 300;
+                }
+                .circle-box{
+                    height: 100%;
+                }
+            }
+            .form{
+                padding: 25px 15px;
+                .form-header{
+                    border-bottom: 2px solid $c1;
+                    h1{
+                        font-size: 35px;
+                        color: $c1;
+                    }
+                }
+                form{
+                    padding: 15px 0;
+                }
+                .btn-send{
+                    border: 1px solid $c1;
+                    color: white;
+                    background-color: $c1;
+                }
+            }
+            .contact-social{
+                background-color: $c1;
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px){
+    .contact{
+        padding-top: 25px;
+        padding-bottom: 80px;
+        .contact-container{
+            .contact-header{
+                h1{
+                    text-transform: uppercase;
+                    cursor: default;
+                    color: transparent;
+                    -webkit-text-stroke: 1px #042463;
+                    font-weight: 500;
+                    font-size: 45px;
+                    margin: 0;
+                }
+            }
+            .contact-bread{
+                padding: 10px 0;
+                a{
+                    color: $c1;
+                }
+            }
+            .contact-content{
+                .contact-info{
+                    background-image: url('../public/mainlogo.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    height: 30vh;
+                    opacity: 0.8;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    h1{
+                        color: $c1;
+                        font-weight: bold;
+                    }
+                    h2{
+                        color: $c1;
+                        font-weight: 300;
+                    }
+                    .circle-box{
+                        height: 100%;
+                    }
+                }
+                .form{
+                    padding: 25px 0px;
+                    .form-header{
+                        border-bottom: 2px solid $c1;
+                        h1{
+                            font-size: 35px;
+                            color: $c1;
+                        }
+                    }
+                    form{
+                        padding: 15px 0;
+                    }
+                    .btn-send{
+                        border: 1px solid $c1;
+                        color: white;
+                        background-color: $c1;
+                    }
+                }
+                .contact-social{
+                    background-color: $c1;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

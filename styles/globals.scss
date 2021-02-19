@@ -1,0 +1,44 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import "../styles/Vars.scss";
+@import "../styles/Header.scss";
+@import "../styles/Home.scss";
+
+@import "../styles/Features.scss";
+@import "../styles/Portfolio.scss";
+@import "../styles/About.scss";
+@import "../styles/Contact.scss";
+@import "../styles/Quote.scss";
+@import "../styles/Success.scss";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: $c1;
+  outline: 1px solid $c1;
+}

@@ -1,0 +1,119 @@
+.about{
+    padding-top: 70px;
+    .about-container{
+        .about-header{
+            h1{
+                text-transform: uppercase;
+                cursor: default;
+                color: transparent;
+                -webkit-text-stroke: 1px #042463;
+                font-weight: 500;
+                font-size: 45px;
+                margin: 0;
+            }
+        }
+        .about-bread{
+            padding: 10px 0;
+            a{
+                color: $c1;
+            }
+        }
+        .about-content{
+           height: 49vh;
+            .about-content-container{
+               padding: 15px 0px;
+                .header-about{
+                    h1{
+                       font-weight: bold;
+                    }
+                }
+                .desc-about{
+                    span{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+        .meet{
+            .meet-container{
+                .meet-header{
+                    padding: 25px 0;
+                    border-bottom: 1px solid $c1;
+                    h2{
+                        text-align: center;
+                        color: $c1;
+                        font-weight: bold;
+                    }
+                }
+                .meet-ceo-wrapper{
+                    margin: 15px 0;
+                    padding: 15px 0;
+                    .ceo-circle{
+                        border-radius: 50%;
+                    }
+                }
+                .meet-team{
+                    .team-wrapper{
+                        padding: 15px 0;
+                        .team-circle{
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+        }
+        .connections{
+            .connections-container{
+                padding: 25px 0;
+                .connections-header{
+
+                }
+                .connections-content{
+                    padding: 25px 0;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 991.98px){
+    .about{
+        padding-top: 0px;
+        padding-bottom: 80px;
+        .about-container{
+            padding-top: 25px;
+            .about-header{
+                h1{
+                    text-transform: uppercase;
+                    cursor: default;
+                    color: transparent;
+                    -webkit-text-stroke: 1px #042463;
+                    font-weight: 500;
+                    font-size: 45px;
+                    margin: 0;
+                }
+            }
+            .about-bread{
+                padding: 10px 0;
+                a{
+                    color: $c1;
+                }
+            }
+            .about-content{
+                height: 100%;
+                .about-content-container{
+                   padding: 15px 0px;
+                    .header-about{
+                        h1{
+                           font-weight: bold;
+                        }
+                    }
+                    .desc-about{
+                        span{
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

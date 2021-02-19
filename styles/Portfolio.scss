@@ -1,0 +1,121 @@
+.portfolio{
+    padding-top: 70px;
+    .portfolio-container{
+        .portfolio-header{
+            h1{
+                text-transform: uppercase;
+                cursor: default;
+                color: transparent;
+                -webkit-text-stroke: 1px #042463;
+                font-weight: 500;
+                font-size: 45px;
+                margin: 0;
+            }
+        }
+        .portfolio-bread{
+            padding: 10px 0;
+            a{
+                color: $c1;
+            }
+        }
+        .portfolio-content{
+            .tab-header{
+                .tab-box{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 5px 0;
+                    cursor: pointer;
+                    span{
+                        font-size: 22px;
+                        font-weight: bold;
+                        color: $c1;
+                    }
+                    .tab-icon-box{
+                        padding: 5px 0;
+                        img{
+                            width: 50px;
+                        }
+                    }
+                }
+            }
+            .tab-content{
+                .tab-content-box{
+                    height: 60vh;
+                    .tab-content-header{
+                        padding: 15px 15px;
+                    }
+                    .tab-content{
+                        img{
+                            width: 100%;
+                        }
+                    } 
+                }
+            }
+
+        }
+        
+    }
+}
+@media (max-width: 991.98px){
+    .portfolio{
+        padding-top: 25px;
+        padding-bottom: 130px;
+        .portfolio-container{
+            .portfolio-header{
+                h1{
+                    text-transform: uppercase;
+                    cursor: default;
+                    color: transparent;
+                    -webkit-text-stroke: 1px #042463;
+                    font-weight: 500;
+                    font-size: 45px;
+                    margin: 0;
+                }
+            }
+            .portfolio-bread{
+                padding: 10px 0;
+                a{
+                    color: $c1;
+                }
+            }
+            .portfolio-content{
+                .tab-header{
+                    .tab-box{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 5px 0;
+                        cursor: pointer;
+                        span{
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: $c1;
+                        }
+                        .tab-icon-box{
+                            padding: 5px 0;
+                            img{
+                                width: 40px;
+                            }
+                        }
+                    }
+                }
+                .tab-content{
+                    .tab-content-box{
+                        height: 100%;
+                        .tab-content-header{
+                            padding: 15px 15px;
+                        }
+                        .tab-content{
+                            img{
+                                margin: 5px 0;
+                            }
+                        } 
+                    }
+                }
+    
+            }
+            
+        }
+    }
+}
